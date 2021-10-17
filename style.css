@@ -5,6 +5,11 @@
 body{
     margin:auto;
 }
+
+*{
+    box-sizing: border-box;
+}
+
 .navbar{
     background-color: #1a1a1a;
     width:100%;
@@ -38,4 +43,18 @@ body{
 }
 .navbar ul li:hover::after{
     width: 100%;
+}
+
+
+.section {
+    float: left;
+    width: 350px;
+    padding: 30px;
+    margin: 0 1.5%
+}
+
+.image {
+    width:520px;
+    margin-left:30px;
+    float:right;  
 }

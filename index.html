@@ -7,29 +7,29 @@ homepage
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
      <title>Henny's Home Town</title>
      <link rel="stylesheet" type="text/css" href="css/style.css"/>
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">  
  
 <style>           
-/* Style the body */
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
 /* Banner */
 .header {
   padding: 1px;
   text-align: left;
   background-image: url('images/banner.jpg');
-  background-size:100% 100%;
+  background-size: 1300px 150px;
   color: white;
   font-size: 20px;
 }
 
-.content {padding:20px;}
+.content {
+    padding:20px;
+}
 </style>
 </head>
 <body>
@@ -39,7 +39,7 @@ body {
           <li><a class="about" href="about.html">About us</a>
           <li><a class="active" href="index.html">Home</a>
           <li><a class="login" href="history.html">History</a>
-          <li><a class="admin" href="essential.html">Essential</a> 
+          <li><a class="admin" href="visit.html">Visit</a> 
          </ul>
     </div>
 
@@ -49,17 +49,23 @@ body {
     <h6>First settled before 6th century AD</h6>
 </div>
 
-<section>
-    <ol>
-        <li>Walk around the Ness Islands</li>
-        <li>Visit the Botanical Garden</li>
-        <li>Visit Dores beach and say hi to Nessie</li>
-        <li>Have a drink at Hootananny's</li>
-        <li>Visit Culloden Battlefield</li>
-    </ol>
-</section>
-<div class="image">
-    <img src="images/inverness.jpg" alt="Inverness" width="400" height="400">
-</div>             
+    
+<div class="main">
+    <div class="row">
+        <div class="col-md-4" style="background-color:#e5e5e5;">
+            <p>Loch Duntelchaig</p>
+            <img src="images/duntelchaig.jpg" alt="Loch Duntelcahig" width="390" height="320"></div>
+        <div class="col-md-4" style="background-color:#ebffe8;">
+            <p>Ordhill</p>
+            <img src="images/ordhill.jpg" alt="Ordhill" width="390" height="320"></div>
+        <div class="col-md-4" style="background-color:#e5e5e5;">
+            <p>The canal</p>
+            <img src="images/canal.jpg" alt="Canal" width="390" height="320"></div> 
+       </div>
+</div>
+<div class="container">
+    <p> Map of Inverness </p>
+   <img src="images/map.png" alt="Map" width="350" height="300" class="center">
+    </div>
     </body>
 </html>
